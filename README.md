@@ -27,3 +27,7 @@ echo "Host:     ${HOST:-unbekannt}"
 
 Das Skript funktioniert ohne zusätzliche Installation – es nutzt nur ping, ip, curl und awk, die in Linux Mint standardmäßig vorhanden sind.
 
+---
+
+Um in Linux Mint die MAC-Adresse einer IP-Adresse zu ermitteln, ist die zuverlässigste Methode, zuerst den Zielrechner anzupingen und dann den lokalen ARP-Cache auszulesen. Dies funktioniert nur für Geräte im lokalen Netzwerk (LAN) oder Router.
+
