@@ -31,3 +31,14 @@ Das Skript funktioniert ohne zusätzliche Installation – es nutzt nur ping, ip
 
 Um in Linux Mint die MAC-Adresse einer IP-Adresse zu ermitteln, ist die zuverlässigste Methode, zuerst den Zielrechner anzupingen und dann den lokalen ARP-Cache auszulesen. Dies funktioniert nur für Geräte im lokalen Netzwerk (LAN) oder Router.
 
+---
+
+Alternative Werkzeuge
+Für das Scannen ganzer Subnetze oder wenn der Cache leer ist, können Sie folgende Tools nutzen:
+
+- arping: Sendet direkt ARP-Anfragen an eine spezifische IP (arping -I <Interface> <Ziel-IP>).
+- nmap: Erkennt Geräte und deren MACs im gesamten Netz (sudo nmap -sP <Subnetze>).
+- arp-scan: Eine spezialisierte Tool-Lösung für schnelle MAC-Sweeps (sudo arp-scan --localnet). 
+
+---
+
