@@ -1,3 +1,16 @@
+
+### Direkt ausführen:
+>
+> ```bash
+> curl -fsSL https://raw.githubusercontent.com/Fr3db3rt/mac-lookup/main/mac-lookup.sh | bash
+> ```
+> *(mit Copy-Button beim Hover)*
+
+
+
+curl -fsSL https://raw.githubusercontent.com/Fr3db3rt/mac-lookup/main/mac-lookup.sh | bash
+
+
 # mac-lookup
 Bash-Skript für Ping und MAC-Abfrage
 
