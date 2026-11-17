@@ -3,6 +3,7 @@
 >
 > ```bash
 > curl -fsSL https://raw.githubusercontent.com/Fr3db3rt/mac-lookup/main/mac-lookup.sh | bash
+> curl -fsSL https://raw.githubusercontent.com/Fr3db3rt/mac-lookup/main/mac-lookup.sh | bash -s -- <IP-ADRESSE>
 > ```
 > *(mit Copy-Button beim Hover)*
 ---
